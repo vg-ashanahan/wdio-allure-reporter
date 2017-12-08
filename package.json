@@ -1,7 +1,7 @@
 {
-  "name": "wdio-allure-reporter",
-  "version": "0.6.1",
-  "description": "A WebdriverIO plugin. Report results in Allure format.",
+  "name": "wdio-allure-vg-reporter",
+  "version": "0.1.3",
+  "description": "A WebdriverIO plugin. Report results in Allure format. (Modified to allow non-unique steps in reporting)",
   "main": "build/reporter.js",
   "scripts": {
     "build": "run-s clean compile",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdriverio/wdio-allure-reporter.git"
+    "url": "git+https://github.com/vg-ashanahan/wdio-allure-reporter.git"
   },
   "directories": {
     "lib": "./lib"
